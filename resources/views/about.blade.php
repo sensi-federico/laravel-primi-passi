@@ -21,8 +21,9 @@
     </header>
     <!-- /#site_header -->
     <main id="site_main">
-        <div class="center-in-page d-flex align-items-center justify-content-center vh-100">
+        <div class="center-in-page d-flex flex-column align-items-center justify-content-center vh-100">
             <h1 class="text-center">{{$title}}</h1>
+            <h3 class="text-center">{{$text}}</h3>
         </div>
     </main>
     <!-- /#site_main -->
